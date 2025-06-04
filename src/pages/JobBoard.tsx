@@ -27,7 +27,7 @@ const JobBoard = () => {
       location: "Dhaka",
       students: 45,
       description: "Experienced mathematics teacher with PhD in Applied Mathematics. Specialized in SSC, HSC, and university level courses.",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b2d4c4f6?w=150&h=150&fit=crop&crop=face",
+      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop&crop=face",
       verified: true,
       subjects: ["Mathematics", "Calculus", "Statistics"]
     },
@@ -87,7 +87,7 @@ const JobBoard = () => {
       location: "Rajshahi",
       students: 33,
       description: "Medical graduate with specialization in human biology and genetics. Great with SSC and HSC students.",
-      image: "https://images.unsplash.com/photo-1559829482-c3574e2ca8e1?w=150&h=150&fit=crop&crop=face",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
       verified: true,
       subjects: ["Biology", "Genetics", "Human Anatomy"]
     },
