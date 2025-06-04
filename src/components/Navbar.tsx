@@ -12,6 +12,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
+import logo from "../images/logo.png"
+
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
@@ -32,7 +34,7 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center space-x-4">
             <Link to="/" className="flex items-center space-x-2">
-              <img className="w-12 h-12" src="../../public/logo.png" alt="Logo" />
+              <img className="w-12 h-12" src={logo} alt="Logo" />
               <span className="font-bold text-xl">TuitionSheba</span>
             </Link>
           </div>

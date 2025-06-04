@@ -7,6 +7,7 @@ import {
   Phone,
   MapPin,
 } from "lucide-react";
+import logo from "../images/logo.png";
 
 export function Footer() {
   return (
@@ -15,11 +16,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <img
-                className="w-12 h-12"
-                src="../../public/logo.png"
-                alt="Logo"
-              />
+              <img className="w-12 h-12" src={logo} alt="Logo" />
 
               <span className="font-bold text-xl">TuitionSheba</span>
             </div>
@@ -117,7 +114,16 @@ export function Footer() {
           <p className="text-sm text-muted-foreground">
             © 2024 TuitionSheba. All rights reserved.
           </p>
-          <p className="text-right text-muted-foreground">Develop & Design by: <a target="_blank" className="text-blue-600 underline" href="http://mdtanvirahamedshanto.vercel.app">Shanto</a></p>
+          <p className="text-right text-muted-foreground">
+            Develop & Design by:{" "}
+            <a
+              target="_blank"
+              className="text-blue-600 underline"
+              href="http://mdtanvirahamedshanto.vercel.app"
+            >
+              Shanto
+            </a>
+          </p>
         </div>
       </div>
     </footer>
