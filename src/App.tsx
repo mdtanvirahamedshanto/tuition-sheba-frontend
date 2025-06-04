@@ -11,9 +11,9 @@ import Index from "./pages/Index";
 import JobBoard from "./pages/JobBoard";
 import Categories from "./pages/Categories";
 import CategoryDetails from "./pages/CategoryDetails";
-import Hub from "./pages/Hub";
 import TutorDetails from "./pages/TutorDetails";
 import NotFoundPage from "./pages/NotFoundPage";
+import JobPostPage from "./pages/JobPostPage";
 
 const queryClient = new QueryClient();
 
@@ -32,7 +32,7 @@ const App = () => (
                 <Route path="/tutors" element={<JobBoard />} />
                 <Route path="/categories" element={<Categories />} />
                 <Route path="/category-details/:id/:name" element={<CategoryDetails />} />
-                <Route path="/hub" element={<Hub />} />
+                <Route path="/jobs" element={<JobPostPage />} />
                 <Route path="/tutors/tutor-details/:id" element={<TutorDetails />} />
                 <Route path="*" element={<NotFoundPage />} />
               </Routes>

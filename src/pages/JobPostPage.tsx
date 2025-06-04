@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react';
 import { MapPin, Clock, Calendar, Users, DollarSign, BookOpen, GraduationCap, Eye, FileText } from 'lucide-react';
 

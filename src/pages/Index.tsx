@@ -287,7 +287,7 @@ const Index = () => {
                   Find a Tutor
                 </Button>
               </Link>
-              <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-blue-600">
+              <Button size="lg" variant="outline" className="text-black dark:text-green-600 border-white hover:bg-white hover:text-blue-600">
                 Become a Tutor
               </Button>
             </div>

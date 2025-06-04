@@ -21,7 +21,7 @@ export function Navbar() {
     { name: "Home", href: "/" },
     { name: "Find Tutor", href: "/tutors" },
     { name: "Categories", href: "/categories" },
-    { name: "Hub", href: "/hub" },
+    { name: "Find Job", href: "/jobs" },
   ];
 
   const isActive = (href: string) => location.pathname === href;
@@ -32,7 +32,7 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center space-x-4">
             <Link to="/" className="flex items-center space-x-2">
-              <div className="h-8 w-8 rounded-lg bg-gradient-to-r from-blue-500 to-purple-600"></div>
+              <img className="w-12 h-12" src="../../public/logo.png" alt="Logo" />
               <span className="font-bold text-xl">TuitionSheba</span>
             </Link>
           </div>
